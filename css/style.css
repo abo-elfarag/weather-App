@@ -15,6 +15,10 @@ sup{
     left: -0.36em;
     margin-right: -40px;
 }
+.home-container{
+    width: 80%;
+    margin: auto;
+}
 .nav-link{
     color: #fff;
 }
@@ -105,4 +109,158 @@ sup{
 .social-links a:hover{
     background-color: #009AD8;
     color: #FFFFFF;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+@media (max-width:1440px) {
+    .num{
+        font-size: 50px;
+    }
+    .num sup{
+        margin-right: -30px;
+    }
+    .num-current{
+        font-size: 50px;
+    }
+    .num-current sup{
+        margin-right: -30px;
+    }
+}
+@media (max-width:1200px) {
+    .home-container{
+        width: 90%;
+    }
+    .content-card span{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:991px) {
+    .num{
+        font-size: 40px;
+    }
+    .num sup{
+        margin-right: -20px;
+    }
+    .num-current{
+        font-size: 40px;
+    }
+    .num-current sup{
+        margin-right: -20px;
+    }
+    .content-card span{
+        font-size: 14px;
+    }
+    .content-card span img{
+        width: 7%;
+    }
+    .footer form{
+        width: 100% !important;
+    }
+}
+@media (max-width:880px) {
+    .num{
+        font-size: 30px;
+    }
+    .num sup{
+        margin-right: -15px;
+    }
+    .num-current{
+        font-size: 30px;
+    }
+    .num-current sup{
+        margin-right: -15px;
+    }
+    .content-card span{
+        margin-right: 5px;
+    }
+    .temp{
+        flex-direction: column;
+    }
+    .forecast-icon img{
+        width: 95%;
+    }
+}
+@media (max-width:772px) {
+    .row{
+        width: 70%;
+        margin: auto;
+        gap: 20px;
+    }
+    .num{
+        font-size: 70px;
+    }
+    .num sup{
+        margin-right: -30px;
+    }
+    .num-current{
+        font-size: 70px;
+    }
+    .num-current sup{
+        margin-right: -30px;
+    }
+    .forecast-icon img{
+        width: 100%;
+    }
+    .content-card span{
+        margin-right: 10px;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:600px) {
+        .row{
+            width: 80%;
+        }
+        .home-container form{
+            width: 100% !important;
+        }
+        .footer .row{
+            width: 100%;
+        }
+        .num{
+            font-size: 60px;
+        }
+        .num sup{
+            margin-right: -30px;
+        }
+        .num-current{
+            font-size: 60px;
+        }
+        .num-current sup{
+            margin-right: -30px;
+        }
+}
+@media (max-width:450px) {
+    .row{
+        width: 90%;
+    }
+    .btn-find{
+        padding: 0 20px;
+    }
+}
+@media (max-width:380px) {
+    .row{
+        width: 99%;
+    }
+    .num{
+        font-size: 50px;
+    }
+    .num sup{
+        margin-right: -30px;
+    }
+    .num-current{
+        font-size: 50px;
+    }
+    .num-current sup{
+        margin-right: -30px;
+    }
+    .footer .btn-find{
+        padding: 0 10px;
+        font-size: 14px;
+        }
 }
